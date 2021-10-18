@@ -1,0 +1,141 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ths943/engr-ece/cme/435_verification/labs/lab3/cme435_ex5
+T_opt
+!s110 1634590868
+VdHcX0jzi?ImIc2J5U=Xei2
+04 10 4 work tbench_top fast 0
+=1-000ae431a4f1-616de093-96398-36f1
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;2019.2;69
+vdut_top
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1634590867
+!i10b 1
+!s100 7:_hJaR8dJK4`I8bHfj7N0
+!s11b o@Qo75mVUg=l_836n3loT0
+ISKkR@OjbTFCfnVRQBdOPS2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1634329491
+8dut/dut_top.sv
+Fdut/dut_top.sv
+L0 1
+Z5 OE;L;2019.2;69
+r1
+!s85 0
+31
+Z6 !s108 1634590867.000000
+Z7 !s107 verification/phase_1_top/test.sv|verification/phase_1_top/interface.sv|verification/phase_1_top/tbench_top.sv|dut/xswitch.svp|dut/dut_top.sv|
+Z8 !s90 -f|script/phase_1_top/run.f|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yintf
+R2
+R3
+!i10b 1
+!s100 IcQI32B9Fg;h@<Wh?VA4J1
+!s11b oB3K5jgAmg:1b:Xaofj2J3
+IhUHhD^6MMmeoBRzRIO<X>2
+R4
+S1
+R0
+w1634001329
+8verification/phase_1_top/interface.sv
+Fverification/phase_1_top/interface.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtbench_top
+R2
+R3
+!i10b 1
+!s100 4UU3_UiNNDP=oPcD1UEWY1
+!s11b 9<oe:BenOkLO?Hb1:m54>0
+IMd:c1IHajmS353UWel?<;3
+R4
+S1
+R0
+w1634001530
+8verification/phase_1_top/tbench_top.sv
+Fverification/phase_1_top/tbench_top.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+4test
+R2
+R3
+!i10b 1
+!s100 _Q9lKM`5:W>973:j=Lih63
+!s11b kKQ>Sci[biBZ17A2CH^>I2
+Id0XMQG2ihKm>f0U:9JI:>1
+R4
+S1
+R0
+w1634003305
+8verification/phase_1_top/test.sv
+Fverification/phase_1_top/test.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vxswitch
+R2
+R3
+!i10b 1
+!s100 Rc[R174n>W`@o2nF<XUHT1
+!s11b S<9P@89Xe>c@In:YX0;`]1
+I?I^n<PlTNS;QW=2zOZ:RU1
+R4
+!i119 1
+S1
+R0
+w1631826278
+8dut/xswitch.svp
+Fdut/xswitch.svp
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

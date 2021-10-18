@@ -1,0 +1,23 @@
+$date
+	Mon Oct 18 15:01:09 2021
+$end
+$version
+	QuestaSim Version 2019.2
+$end
+$timescale
+	1ns
+$end
+
+$scope module tbench_top $end
+
+$scope module testbench $end
+$upscope $end
+
+$scope module dut $end
+
+$scope module xsw $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
