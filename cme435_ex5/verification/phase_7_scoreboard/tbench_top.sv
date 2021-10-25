@@ -8,6 +8,7 @@ module tbench_top;
 
     always begin
         reset = 1;
+        $display("[Tbench_Top]: Reset applied at %0d", $time);
         #2 reset = 0;
         wait(reset_trigger.triggered);
     end

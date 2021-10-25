@@ -30,7 +30,6 @@ class generator;
     endtask
 
     function void generate_transaction(
-            // transaction trans,
             bit [3:0] valid_in,
             bit [15:0] addr,
             bit [15:0] data);
@@ -38,6 +37,17 @@ class generator;
         trans.valid_in = valid_in;
         trans.addr_in = addr;
         trans.data_in = data;
+        trans.display("[Generator]");
+        transaction_queue.push_front(trans);
+        packets_generated++;
+    endfunction
+
+    function void generate_random_transaction();
+        transaction trans;
+        trans = new();
+
+        if( !trans.randomize() )
+            $fatal("[Generator]: trans randomization failed");
         trans.display("[Generator]");
         transaction_queue.push_front(trans);
         packets_generated++;

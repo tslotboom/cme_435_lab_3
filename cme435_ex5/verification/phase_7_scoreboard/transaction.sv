@@ -1,15 +1,30 @@
 `ifndef _TRANSACTION_
 `define _TRANSACTION_
 class transaction;
-    bit     [15:0] data_in;
-    bit     [15:0] addr_in;
-    bit     [3:0]  valid_in;
+    rand bit     [15:0] data_in;
+    rand bit     [15:0] addr_in;
+    rand bit     [3:0]  valid_in;
     bit     [3:0]  data_read;
 
     bit     [3:0]  rcv_rdy;
     bit     [15:0] data_out;
     bit     [15:0] addr_out;
     bit     [3:0]  data_rdy;
+
+    constraint address {
+        unique {addr_in[3:0], addr_in[7:4], addr_in[11:8], addr_in[15:12]};
+        addr_in[3:0] < 4;
+        addr_in[7:4] < 4;
+        addr_in[11:8] < 4;
+        addr_in[15:12] < 4;
+    }
+
+    constraint data {
+        data_in[3:0] > 0;
+        data_in[7:4] > 0;
+        data_in[11:8] > 0;
+        data_in[15:12] > 0;
+    }
 
     function void display(string name);
         $display("----------");

@@ -1,0 +1,22 @@
+# do run_random.do
+# QuestaSim vmap 2019.2 Lib Mapping Utility 2019.04 Apr 16 2019
+# vmap work work 
+# Copying /CMC/tools/mentor/questasim_2019.2/questasim/linux/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim vlog 2019.2 Compiler 2019.04 Apr 16 2019
+# Start time: 14:14:38 on Oct 25,2021
+# vlog -f ./run_random.f 
+# -- Compiling module dut_top
+# -- Compiling module xswitch
+# -- Compiling module tbench_top
+# -- Compiling interface intf
+# ** Error: (vlog-13069) ** while parsing file included at ../../verification/phase_7_scoreboard/test_random.sv(3)
+# ** while parsing file included at ../../verification/phase_7_scoreboard/environment.sv(3)
+# ** at ../../verification/phase_7_scoreboard/generator.sv(46): near "rand": syntax error, unexpected rand.
+# End time: 14:14:38 on Oct 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /CMC/tools/mentor/questasim_2019.2/questasim/linux/vlog failed.
+# Error in macro ./run_random.do line 3
+# /CMC/tools/mentor/questasim_2019.2/questasim/linux/vlog failed.
+#     while executing
+# "vlog -f ./run_random.f"

@@ -10,6 +10,8 @@ else if ($1 == 2) then
     vsim -c -do run_port_assignment.do
 else if ($1 == 3) then
     vsim -c -do run_overlapping_addresses.do
+else if ($1 == 4) then
+    vsim -c -do run_random.do
 else
     vsim -c -do run_sanity_check.do
 endif
